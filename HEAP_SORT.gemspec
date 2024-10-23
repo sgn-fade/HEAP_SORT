@@ -11,15 +11,14 @@ Gem::Specification.new do |spec|
   spec.summary = "Heap Sort Algorithm"
   spec.description = "A Ruby implementation of the heap sort algorithm, which sorts an array by
 building a max heap and then repeatedly extracting the maximum element."
-  spec.homepage = "https://github.com/your_username/HEAP_SORT"
+  spec.homepage = "https://github.com/sgn-fade/HEAP_SORT"
   spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/your_username/HEAP_SORT" # Замените на URL вашего репозитория
-  spec.metadata["changelog_uri"] = "https://github.com/your_username/HEAP_SORT/blob/main/CHANGELOG.md" # Замените на URL вашего changelog
-
+  spec.metadata["source_code_uri"] = "https://github.com/sgn-fade/HEAP_SORT"
+  spec.metadata["changelog_uri"] = "https://github.com/sgn-fade/HEAP_SORT"
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
   gemspec = File.basename(__FILE__)
